@@ -44,7 +44,7 @@ try {
     website: chalk.cyan(website_link),
 
     labelCard: chalk.white.bold('Card:'),
-    npxCard: chalk.white.underline('npx biolinks'),
+    npxCard: chalk.white.underline('npx Portfolio'),
   };
 
   const newline = '\n';
