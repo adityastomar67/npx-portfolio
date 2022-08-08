@@ -6,30 +6,28 @@
     "card",
     "business card",
     "bio links",
-    "npm business card",
-    "Pierre-Henry",
-    "Pierre-Henry Soria"
+    "npm business card"
   ],
-  "main": "./bin/biolinks.js",
+  "main": "./bin/cli.js",
   "bin": {
-    "ph7biolinks": "./bin/biolinks.js"
+    "card": "./bin/cli.js"
   },
   "scripts": {
-    "start": "node ./bin/biolinks.js"
+    "start": "node ./bin/cli.js"
   },
-  "author": "Pierre-Henry Soria",
+  "author": "Aditya Singh Tomar",
   "license": "MIT",
   "dependencies": {
     "boxen": "^5.1.2",
     "chalk": "^4.1.2",
     "package.json": "^2.0.1"
   },
-  "homepage": "https://github.com/HiDeaUp/pH7BioLinks",
+  "homepage": "https://github.com/adityastomar67/npx-portfolio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HiDeaUp/pH7BioLinks.git"
+    "url": "https://github.com/adityastomar67/npx-portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/HiDeaUp/pH7BioLinks/issues"
+    "url": "https://github.com/adityastomar67/npx-portfolio/issues"
   }
 }
