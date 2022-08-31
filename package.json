@@ -1,6 +1,6 @@
 {
     "name": "adityastomar67",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "description": "A simple CLI bio links. NPM Business card.",
     "main": "./bin/cli.js",
     "bin": {
