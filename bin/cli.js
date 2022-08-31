@@ -73,6 +73,16 @@ try {
                 //     }
                 // },
                 {
+                    name: `Download my ${chalk.magentaBright.bold("Resume")}? (Coming Soon...)`,
+                    value: () => {
+                    }
+                },
+                {
+                    name: `Connect with ${chalk.hex("#E94560").bold("Me")}! (Coming Soon...)`,
+                    value: () => {
+                    }
+                },
+                {
                     name: `Schedule a ${chalk.redBright.bold("Meeting")}?`,
                     value: () => {
                         open('https://calendly.com/adityastomar67/30min');
