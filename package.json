@@ -1,33 +1,43 @@
 {
-  "name": "adityastomar67",
-  "version": "1.1.6",
-  "description": "A simple CLI bio links. NPM Business card.",
-  "keywords": [
-    "card",
-    "business card",
-    "bio links",
-    "npm business card"
-  ],
-  "main": "./bin/cli.js",
-  "bin": {
-    "card": "./bin/cli.js"
-  },
-  "scripts": {
-    "start": "node ./bin/cli.js"
-  },
-  "author": "Aditya Singh Tomar",
-  "license": "MIT",
-  "dependencies": {
-    "boxen": "^5.1.2",
-    "chalk": "^4.1.2",
-    "package.json": "^2.0.1"
-  },
-  "homepage": "https://github.com/adityastomar67/npx-portfolio",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/adityastomar67/npx-portfolio.git"
-  },
-  "bugs": {
-    "url": "https://github.com/adityastomar67/npx-portfolio/issues"
-  }
+    "name": "adityastomar67",
+    "version": "2.0.1",
+    "description": "A simple CLI bio links. NPM Business card.",
+    "main": "./bin/cli.js",
+    "bin": {
+        "card": "./bin/cli.js"
+    },
+    "scripts": {
+        "start": "node ./bin/cli.js",
+        "pub": "npm version major & npm publish"
+    },
+    "author": "Aditya Singh Tomar",
+    "license": "MIT",
+    "dependencies": {
+        "boxen": "^4.2.0",
+        "chalk": "^4.1.0",
+        "clear": "^0.1.0",
+        "cli-spinners": "^2.5.0",
+        "inquirer": "^7.3.2",
+        "open": "^7.0.4",
+        "ora": "^5.1.0",
+        "request": "^2.88.2"
+    },
+    "keywords": [
+        "card",
+        "npm",
+        "npm card",
+        "npx",
+        "npx card",
+        "business card",
+        "bio links",
+        "npm business card"
+    ],
+    "homepage": "https://github.com/adityastomar67/npx-portfolio",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adityastomar67/npx-portfolio.git"
+    },
+    "bugs": {
+        "url": "https://github.com/adityastomar67/npx-portfolio/issues"
+    }
 }
