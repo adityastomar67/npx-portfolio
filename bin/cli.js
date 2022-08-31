@@ -123,4 +123,3 @@ const tip = [
 console.log(tip);
 
 prompt(questions).then(answer => answer.action());
-
