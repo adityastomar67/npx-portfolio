@@ -68,34 +68,34 @@ const data = {
     name: chalk.bold.green("                 Aditya Singh Tomar "),
     handle: chalk.white("@adityastomar67"),
     work: `${chalk.white("Software Engineer Intern")} ${chalk
-        .hex("#2b82b2")
+        .hex("#0F3460")
         .bold("Nagarro")}`,
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan("singhhhx"),
     github: chalk.gray("https://github.com/") + chalk.green("adityastomar67"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("adityastomar67"),
     web: chalk.cyan("#"),
     npx: chalk.red("npx") + " " + chalk.white("adityastomar67"),
-
-    labelWork: chalk.white.bold("       Work:"),
-    labelTwitter: chalk.white.bold("    Twitter:"),
-    labelGitHub: chalk.white.bold("     GitHub:"),
-    labelLinkedIn: chalk.white.bold("   LinkedIn:"),
-    labelWeb: chalk.white.bold("        Web:"),
-    labelCard: chalk.white.bold("       Card:")
+    separator: chalk.hex("#E94560")(":"),
+    labelWork: chalk.white.bold("       Work"),
+    labelTwitter: chalk.white.bold("    Twitter"),
+    labelGitHub: chalk.white.bold("     GitHub"),
+    labelLinkedIn: chalk.white.bold("   LinkedIn"),
+    labelWeb: chalk.white.bold("        Web"),
+    labelCard: chalk.white.bold("       Card")
 };
 
 const me = boxen(
     [
         `                  ${data.name}`,
         ``,
-        `                   ${data.labelWork}  ${data.work}`,
+        `                   ${data.labelWork}${data.separator}  ${data.work}`,
         ``,
-        `                   ${data.labelTwitter}  ${data.twitter}`,
-        `                   ${data.labelGitHub}  ${data.github}`,
-        `                   ${data.labelLinkedIn}  ${data.linkedin}`,
-        `                   ${data.labelWeb}  ${data.web}`,
+        `                   ${data.labelTwitter}${data.separator}  ${data.twitter}`,
+        `                   ${data.labelGitHub}${data.separator}  ${data.github}`,
+        `                   ${data.labelLinkedIn}${data.separator}  ${data.linkedin}`,
+        `                   ${data.labelWeb}${data.separator}  ${data.web}`,
         ``,
-        `                   ${data.labelCard}  ${data.npx}`,
+        `                   ${data.labelCard}${data.separator}  ${data.npx}`,
         ``,
         `${chalk.italic(
             "I am currently looking for new opportunities, my inbox is always open. Whether you have a"
