@@ -1,8 +1,30 @@
-# 🏆  Npx Business Card
+<div align = "center">
 
-Basically a terminal based portfolio. (for nerds 🤓).
+  <h1><a href="https://github.com/adityastomar67/npx-portfolio">npx-Portfolio</a></h1>
 
-## 👨‍💻 Run my business card
+  <a href="https://github.com/adityastomar67/npx-portfolio/blob/main/LICENSE.md">
+  <img alt="License" src="https://img.shields.io/github/license/adityastomar67/npx-portfolio?style=flat&color=eee&label="> </a>
+
+  <a href="https://github.com/adityastomar67/npx-portfolio/graphs/contributors">  
+  <img alt="People" src="https://img.shields.io/github/contributors/adityastomar67/npx-portfolio?style=flat&color=ffaaf2&label=People"> </a>
+
+  <a href="https://github.com/adityastomar67/npx-portfolio/stargazers">
+  <img alt="Stars" src="https://img.shields.io/github/stars/adityastomar67/npx-portfolio?style=flat&color=98c379&label=Stars"></a>
+
+  <a href="https://github.com/adityastomar67/npx-portfolio/network/members">
+  <img alt="Forks" src="https://img.shields.io/github/forks/adityastomar67/npx-portfolio?style=flat&color=66a8e0&label=Forks"> </a>
+
+  <a href="https://github.com/adityastomar67/npx-portfolio/watchers">
+  <img alt="Watches" src="https://img.shields.io/github/watchers/adityastomar67/npx-portfolio?style=flat&color=f5d08b&label=Watches"> </a>
+
+  <a href="https://github.com/adityastomar67/npx-portfolio/pulse">
+  <img alt="Last Updated" src="https://img.shields.io/github/last-commit/adityastomar67/npx-portfolio?style=flat&color=e06c75&label="> </a>
+
+  <h3>Basically a terminal based portfolio. (for nerds 🤓).</h3>
+
+</div>
+
+## 👨‍💻 Run my terminal card
 
 ```bash
 npx adityastomar67
