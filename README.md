@@ -18,7 +18,11 @@ Me, I'm **[Aditya Singh Tomar](https://github.com/adityastomar67/)**, a programm
 
 You can reach me at _hi {{AT}} adityastomar67 [[D0T]] me_! ...Coming very soooon!!!
 
+<div align="center">
+
 ![My Npx Portfolio Card](card-npm.png)
+
+</div>
 
 ## 👀 Heavily inspired by ...
 

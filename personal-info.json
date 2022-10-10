@@ -1,13 +1,13 @@
 {
-    "full_name": "Aditya Singh Tomar",
-    "job_title": "Software Engineer Intern",
-    "handle":"adityastomar67",
-    "github_link": "https://github.com/",
-    "twitter_link": "https://twitter.com/",
-    "linkedin_link": "https://www.linkedin.com/in/",
-    "github_handle": "adityastomar67",
-    "linkedin_handle": "adityastomar67",
-    "twitter_handle": "singhhhx",
-    "email": "adityastomar67@gmail",
-    "website_link": "(Coming Soon...)"
+    "full_name"       : "Aditya Singh Tomar",
+    "job_title"       : "Software Engineer Intern",
+    "handle"          : "adityastomar67",
+    "github_link"     : "https://github.com/",
+    "twitter_link"    : "https://twitter.com/",
+    "linkedin_link"   : "https://www.linkedin.com/in/",
+    "github_handle"   : "adityastomar67",
+    "linkedin_handle" : "adityastomar67",
+    "twitter_handle"  : "singhhhx",
+    "email"           : "adityastomar67@gmail",
+    "website_link"    : "(Coming Soon...)"
 }
