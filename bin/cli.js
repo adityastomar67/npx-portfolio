@@ -55,31 +55,73 @@ try {
                     }
                 },
                 // For downloading and showing the resume as html file
-                // {
-                //     name: `Download my ${chalk.magentaBright.bold("Resume")}?`,
-                //     value: () => {
-                //         // cliSpinners.dots;
-                //         const loader = ora({
-                //             text: ' Downloading Resume',
-                //             spinner: cliSpinners.material,
-                //         }).start();
-                //         let pipe = request('https://#/api/resume').pipe(fs.createWriteStream('./aditya-resume.html'));
-                //         pipe.on("finish", function () {
-                //             let downloadPath = path.join(process.cwd(), 'anmol-resume.html')
-                //             console.log(`\nResume Downloaded at ${downloadPath} \n`);
-                //             open(downloadPath)
-                //             loader.stop();
-                //         });
-                //     }
-                // },
                 {
-                    name: `Download my ${chalk.magentaBright.bold("Resume")}? (Coming Soon...)`,
+                    name: `Download my ${chalk.magentaBright.bold("Resume")}?`,
                     value: () => {
+                        cliSpinners.dots;
+                        const loader = ora({
+                            text: ' Downloading Resume',
+                            spinner: cliSpinners.material,
+                        }).start();
+                        let pipe = request('https://gist.githubusercontent.com/adityastomar67/fc16674d8da9385b31808e8d0c599544/raw/1bb6a5923a498cfc6293ef81b1f6906626f06b5f/Resume.html').pipe(fs.createWriteStream('./aditya-resume.html'));
+                        pipe.on("finish", function () {
+                            let downloadPath = path.join(process.cwd(), 'aditya-resume.html')
+                            console.log(`\nResume Downloaded at ${downloadPath} \n`);
+                            open(downloadPath)
+                            loader.stop();
+                        });
                     }
                 },
                 {
                     name: `Connect with ${chalk.hex("#E94560").bold("Me")}! (Coming Soon...)`,
                     value: () => {
+                        const Internal_questions = [
+                            {
+                                type: "list",
+                                name: "action",
+                                message: "Choose any option from below!",
+                                choices: [
+                                    {
+                                        name: `Check Me Out on ${chalk.blue.bold("Facebook")}!`,
+                                        value: () => {
+                                            open('');
+                                            console.log("\n Waiting For your Friend Request... \n");
+                                        }
+                                    },
+                                    {
+                                        name: `Latest Pushes on ${chalk.grey.bold("GitHub")}!`,
+                                        value: () => {
+                                            open('https://github.com/adityastomar67/');
+                                            console.log("\n Do Checkout all my Repos... \n");
+                                        }
+                                    },
+                                    {
+                                        name: `Check Me Out on ${chalk.blue.bold("Linked")}${chalk.grey.bold("In")}!`,
+                                        value: () => {
+                                            open('');
+                                            console.log("\n Make Sure to Ping me there... \n");
+                                        }
+                                    },
+                                    {
+                                        name: `My Lifestyle, my ${chalk.blue.bold("Twitter")}!`,
+                                        value: () => {
+                                            open('');
+                                            console.log("\n Best Way of Appreciation is ReTweeting!!! \n");
+                                        }
+                                    },
+                                    {
+                                        name: `Check Out my ${chalk.green.bold("LinkTree")}!`,
+                                        value: () => {
+                                            open('');
+                                            console.log("\n Much more there. \n");
+                                        }
+                                    },
+                                ]
+                            }
+                        ];
+
+                        prompt(Internal_questions).then(answer => answer.action());
+
                     }
                 },
                 {
